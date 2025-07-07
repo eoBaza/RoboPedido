@@ -1,0 +1,687 @@
+=== INICIO DO PROCESSO D0 - 2025-07-07 11:36:20 ===
+
+[2025-07-07 11:36:20] ===== INICÍO DO CÍCLO DE MONITORAMENTO =====
+[2025-07-07 11:36:20] INICIANDO VALIDAÇÃO D0...
+[2025-07-07 11:36:20] Processando Pedido 780409854 / Filial 48...
+[2025-07-07 11:36:38] Evento venda PG: ID 117503 | Status: Erro
+[2025-07-07 11:36:38] Evento venda ainda não está com status SUCESSO no PG. Pulando pedido 780409854.
+[2025-07-07 11:36:38] Processando Pedido 780409854 / Filial 48...
+[2025-07-07 11:36:38] Evento venda PG: ID 117503 | Status: Erro
+[2025-07-07 11:36:38] Evento venda ainda não está com status SUCESSO no PG. Pulando pedido 780409854.
+[2025-07-07 11:36:38] 
+###############VALIDAÇÃO D0 CONCLUÍDA.################
+
+[2025-07-07 11:36:38] 
+==================
+PROCESSANDO FILIAIS...
+==================
+[2025-07-07 11:36:39] Conectado ao Oracle.
+[2025-07-07 11:36:39] Total de filiais a processar: 596
+[2025-07-07 11:36:39] Filial 3: Nenhum evento com erro
+[2025-07-07 11:36:39] Filial 4: Nenhum evento com erro
+[2025-07-07 11:36:40] Filial 5: Nenhum evento com erro
+[2025-07-07 11:36:40] Filial 7: Nenhum evento com erro
+[2025-07-07 11:36:40] Filial 8: Nenhum evento com erro
+[2025-07-07 11:36:40] Filial 9: Nenhum evento com erro
+[2025-07-07 11:36:41] Filial 10: Nenhum evento com erro
+[2025-07-07 11:36:42] Filial 11: Nenhum evento com erro
+[2025-07-07 11:36:42] Filial 12: Nenhum evento com erro
+[2025-07-07 11:36:42] Filial 13: Nenhum evento com erro
+[2025-07-07 11:36:42] Filial 14: Nenhum evento com erro
+[2025-07-07 11:36:43] Filial 15: tipo pedido -> inserindo erro do evento ROLLBACK || Error: ORA-00001: unique constraint (COMMERCE.CUP_PK) violated com status Erro, nr_cupom 113743
+[2025-07-07 11:36:43] Filial 16: Nenhum evento com erro
+[2025-07-07 11:36:44] Filial 17: Nenhum evento com erro
+[2025-07-07 11:36:44] Filial 18: Nenhum evento com erro
+[2025-07-07 11:36:44] Filial 19: Nenhum evento com erro
+[2025-07-07 11:36:44] Filial 20: Nenhum evento com erro
+[2025-07-07 11:36:45] Filial 21: Nenhum evento com erro
+[2025-07-07 11:36:45] Filial 22: Nenhum evento com erro
+[2025-07-07 11:36:45] Filial 23: Nenhum evento com erro
+[2025-07-07 11:36:45] Filial 24: Nenhum evento com erro
+[2025-07-07 11:36:45] Filial 25: Nenhum evento com erro
+[2025-07-07 11:36:46] Filial 26: Nenhum evento com erro
+[2025-07-07 11:36:46] Filial 27: Nenhum evento com erro
+[2025-07-07 11:36:46] Filial 29: Nenhum evento com erro
+[2025-07-07 11:36:46] Filial 30: Nenhum evento com erro
+[2025-07-07 11:36:47] Filial 31: Nenhum evento com erro
+[2025-07-07 11:36:47] Filial 34: Nenhum evento com erro
+[2025-07-07 11:36:48] Filial 35: Nenhum evento com erro
+[2025-07-07 11:36:48] Filial 36: Nenhum evento com erro
+[2025-07-07 11:36:48] Filial 37: Nenhum evento com erro
+[2025-07-07 11:36:48] Filial 38: Nenhum evento com erro
+[2025-07-07 11:36:49] Filial 40: Nenhum evento com erro
+[2025-07-07 11:36:49] Filial 41: Nenhum evento com erro
+[2025-07-07 11:36:49] Filial 43: Nenhum evento com erro
+[2025-07-07 11:36:50] Filial 44: tipo pedido -> inserindo erro do evento ROLLBACK || Error: ORA-00001: unique constraint (COMMERCE.CUP_PK) violated com status Erro, nr_cupom 144093
+[2025-07-07 11:36:50] Filial 45: Nenhum evento com erro
+[2025-07-07 11:36:51] Filial 46: Nenhum evento com erro
+[2025-07-07 11:36:51] Filial 47: Nenhum evento com erro
+[2025-07-07 11:36:52] Filial 48: tipo pedido -> inserindo erro do evento None com status Executando, nr_cupom 2318
+[2025-07-07 11:36:52] Filial 48: tipo pedido -> inserindo erro do evento ROLLBACK || Error: ORA-02291: integrity constraint (COMMERCE.FK_PEDIDO_VENDA_CUPOM) violated - parent key not found com status Erro, nr_cupom 43485
+[2025-07-07 11:36:52] Erro já registrado para filial 48, pedido 75454, pulando inserção.
+[2025-07-07 11:36:52] Filial 49: tipo id_cupom_pg -> inserindo erro do evento None com status Executando, nr_cupom 95435
+[2025-07-07 11:36:52] Filial 50: Nenhum evento com erro
+[2025-07-07 11:36:52] Filial 51: Nenhum evento com erro
+[2025-07-07 11:36:52] Filial 52: Nenhum evento com erro
+[2025-07-07 11:36:53] Filial 53: Nenhum evento com erro
+[2025-07-07 11:36:54] Filial 55: Nenhum evento com erro
+[2025-07-07 11:36:54] Filial 56: Nenhum evento com erro
+[2025-07-07 11:36:54] Filial 58: Nenhum evento com erro
+[2025-07-07 11:36:55] Filial 59: Nenhum evento com erro
+[2025-07-07 11:36:55] Filial 60: Nenhum evento com erro
+[2025-07-07 11:36:57] Filial 61: tipo pedido -> inserindo erro do evento ROLLBACK || Error: ORA-00001: unique constraint (COMMERCE.CUP_PK) violated com status Erro, nr_cupom 3424
+[2025-07-07 11:36:57] Filial 62: Nenhum evento com erro
+[2025-07-07 11:36:57] Filial 64: Nenhum evento com erro
+[2025-07-07 11:36:58] Filial 65: Nenhum evento com erro
+[2025-07-07 11:36:58] Filial 66: Nenhum evento com erro
+[2025-07-07 11:36:58] Filial 68: Nenhum evento com erro
+[2025-07-07 11:36:58] Filial 69: Nenhum evento com erro
+[2025-07-07 11:36:58] Filial 71: Nenhum evento com erro
+[2025-07-07 11:36:58] Filial 72: Nenhum evento com erro
+[2025-07-07 11:36:59] Filial 73: Nenhum evento com erro
+[2025-07-07 11:37:02] Filial 75: Nenhum evento com erro
+[2025-07-07 11:37:02] Filial 76: Nenhum evento com erro
+[2025-07-07 11:37:03] Filial 78: tipo pedido -> inserindo erro do evento ROLLBACK || Error: ORA-00001: unique constraint (COMMERCE.CUP_PK) violated com status Erro, nr_cupom 140841
+[2025-07-07 11:37:03] Filial 80: Nenhum evento com erro
+[2025-07-07 11:37:03] Filial 81: Nenhum evento com erro
+[2025-07-07 11:37:04] Filial 82: Nenhum evento com erro
+[2025-07-07 11:37:04] Filial 83: Nenhum evento com erro
+[2025-07-07 11:37:04] Filial 84: Nenhum evento com erro
+[2025-07-07 11:37:04] Filial 85: Nenhum evento com erro
+[2025-07-07 11:37:05] Filial 86: Nenhum evento com erro
+[2025-07-07 11:37:05] Filial 88: Nenhum evento com erro
+[2025-07-07 11:37:05] Filial 89: Nenhum evento com erro
+[2025-07-07 11:37:05] Filial 90: Nenhum evento com erro
+[2025-07-07 11:37:05] Filial 92: Nenhum evento com erro
+[2025-07-07 11:37:06] Filial 93: Nenhum evento com erro
+[2025-07-07 11:37:06] Filial 94: Nenhum evento com erro
+[2025-07-07 11:37:06] Filial 95: Nenhum evento com erro
+[2025-07-07 11:37:06] Filial 97: Nenhum evento com erro
+[2025-07-07 11:37:07] Filial 98: Nenhum evento com erro
+[2025-07-07 11:37:07] Filial 99: Nenhum evento com erro
+[2025-07-07 11:37:07] Filial 101: Nenhum evento com erro
+[2025-07-07 11:37:07] Filial 102: Nenhum evento com erro
+[2025-07-07 11:37:09] Filial 103: Nenhum evento com erro
+[2025-07-07 11:37:10] Filial 104: Nenhum evento com erro
+[2025-07-07 11:37:10] Filial 105: Nenhum evento com erro
+[2025-07-07 11:37:10] Filial 106: Nenhum evento com erro
+[2025-07-07 11:37:10] Filial 107: Nenhum evento com erro
+[2025-07-07 11:37:10] Filial 108: Nenhum evento com erro
+[2025-07-07 11:37:11] Filial 109: Nenhum evento com erro
+[2025-07-07 11:37:11] Filial 110: Nenhum evento com erro
+[2025-07-07 11:37:11] Filial 111: Nenhum evento com erro
+[2025-07-07 11:37:11] Filial 112: Nenhum evento com erro
+[2025-07-07 11:37:11] Filial 113: Nenhum evento com erro
+[2025-07-07 11:37:12] Filial 114: tipo pedido -> inserindo erro do evento None com status Executando, nr_cupom 154787
+[2025-07-07 11:37:13] Filial 115: tipo pedido -> inserindo erro do evento ROLLBACK || Error: ORA-00001: unique constraint (COMMERCE.CUP_PK) violated com status Erro, nr_cupom 128237
+[2025-07-07 11:37:13] Filial 115: tipo pedido -> inserindo erro do evento ROLLBACK || Error: ORA-00001: unique constraint (COMMERCE.CUP_PK) violated com status Erro, nr_cupom 128236
+[2025-07-07 11:37:34] ERRO PG - Conexão filial 116: connection to server at "qql11600.qq" (172.16.116.1), port 5432 failed: Connection timed out (0x0000274C/10060)
+	Is the server running on that host and accepting TCP/IP connections?
+
+[2025-07-07 11:37:34] Filial 117: Nenhum evento com erro
+[2025-07-07 11:37:34] Filial 118: Nenhum evento com erro
+[2025-07-07 11:37:37] Filial 120: Nenhum evento com erro
+[2025-07-07 11:37:37] Filial 121: Nenhum evento com erro
+[2025-07-07 11:37:38] Filial 122: Nenhum evento com erro
+[2025-07-07 11:37:38] Filial 123: Nenhum evento com erro
+[2025-07-07 11:37:38] Filial 124: Nenhum evento com erro
+[2025-07-07 11:37:38] Filial 126: Nenhum evento com erro
+[2025-07-07 11:37:38] Filial 127: Nenhum evento com erro
+[2025-07-07 11:37:39] Filial 128: Nenhum evento com erro
+[2025-07-07 11:37:39] Filial 129: Nenhum evento com erro
+[2025-07-07 11:37:40] Filial 130: tipo id_cupom_pg -> inserindo erro do evento ROLLBACK || Error: ORA-01841: (full) year must be between -4713 and +9999, and not be 0 com status Erro, nr_cupom 19339
+[2025-07-07 11:37:40] Filial 131: Nenhum evento com erro
+[2025-07-07 11:37:40] Filial 132: Nenhum evento com erro
+[2025-07-07 11:37:40] Filial 133: Nenhum evento com erro
+[2025-07-07 11:37:41] Filial 134: Nenhum evento com erro
+[2025-07-07 11:37:41] Filial 135: Nenhum evento com erro
+[2025-07-07 11:37:42] Filial 136: Nenhum evento com erro
+[2025-07-07 11:37:42] Filial 137: Nenhum evento com erro
+[2025-07-07 11:37:42] Filial 138: Nenhum evento com erro
+[2025-07-07 11:37:42] Filial 139: Nenhum evento com erro
+[2025-07-07 11:37:42] Filial 140: Nenhum evento com erro
+[2025-07-07 11:37:43] Filial 141: Nenhum evento com erro
+[2025-07-07 11:37:44] Filial 142: Nenhum evento com erro
+[2025-07-07 11:37:44] Filial 143: Nenhum evento com erro
+[2025-07-07 11:37:44] Filial 144: Nenhum evento com erro
+[2025-07-07 11:37:44] Filial 145: Nenhum evento com erro
+[2025-07-07 11:37:45] Filial 146: Nenhum evento com erro
+[2025-07-07 11:37:45] Filial 147: Nenhum evento com erro
+[2025-07-07 11:37:45] Filial 148: Nenhum evento com erro
+[2025-07-07 11:37:46] Filial 149: Nenhum evento com erro
+[2025-07-07 11:37:47] Filial 151: Nenhum evento com erro
+[2025-07-07 11:37:47] Filial 152: Nenhum evento com erro
+[2025-07-07 11:37:48] Filial 153: Nenhum evento com erro
+[2025-07-07 11:37:48] Filial 154: Nenhum evento com erro
+[2025-07-07 11:37:48] Filial 155: Nenhum evento com erro
+[2025-07-07 11:37:49] Filial 156: Nenhum evento com erro
+[2025-07-07 11:37:49] Filial 159: Nenhum evento com erro
+[2025-07-07 11:37:49] Filial 160: Nenhum evento com erro
+[2025-07-07 11:37:50] Filial 161: Nenhum evento com erro
+[2025-07-07 11:37:50] Filial 166: Nenhum evento com erro
+[2025-07-07 11:37:50] Filial 167: Nenhum evento com erro
+[2025-07-07 11:37:50] Filial 169: tipo pedido -> inserindo erro do evento ROLLBACK || Error: ORA-00001: unique constraint (COMMERCE.CUP_PK) violated com status Erro, nr_cupom 37803
+[2025-07-07 11:37:51] Filial 170: Nenhum evento com erro
+[2025-07-07 11:37:51] Filial 171: tipo pedido -> inserindo erro do evento ROLLBACK || Error: ORA-00001: unique constraint (COMMERCE.CUP_PK) violated com status Erro, nr_cupom 73794
+[2025-07-07 11:37:52] Filial 172: Nenhum evento com erro
+[2025-07-07 11:37:52] Filial 174: Nenhum evento com erro
+[2025-07-07 11:38:13] ERRO PG - Conexão filial 175: connection to server at "qql17500.qq" (172.16.175.1), port 5432 failed: Connection timed out (0x0000274C/10060)
+	Is the server running on that host and accepting TCP/IP connections?
+
+[2025-07-07 11:38:34] ERRO PG - Conexão filial 176: connection to server at "qql17600.qq" (172.16.176.1), port 5432 failed: Connection timed out (0x0000274C/10060)
+	Is the server running on that host and accepting TCP/IP connections?
+
+[2025-07-07 11:38:35] Filial 178: Nenhum evento com erro
+[2025-07-07 11:38:35] Filial 179: Nenhum evento com erro
+[2025-07-07 11:38:35] Filial 180: Nenhum evento com erro
+[2025-07-07 11:38:36] Filial 181: Nenhum evento com erro
+[2025-07-07 11:38:36] Filial 182: tipo pedido -> inserindo erro do evento ROLLBACK || Error: ORA-00001: unique constraint (COMMERCE.CUP_PK) violated com status Erro, nr_cupom 170692
+[2025-07-07 11:38:36] Filial 183: Nenhum evento com erro
+[2025-07-07 11:38:37] Filial 184: Nenhum evento com erro
+[2025-07-07 11:38:37] Filial 185: Nenhum evento com erro
+[2025-07-07 11:38:37] Filial 186: Nenhum evento com erro
+[2025-07-07 11:38:37] Filial 187: Nenhum evento com erro
+[2025-07-07 11:38:38] Filial 188: Nenhum evento com erro
+[2025-07-07 11:38:38] Filial 189: Nenhum evento com erro
+[2025-07-07 11:38:38] Filial 190: Nenhum evento com erro
+[2025-07-07 11:38:39] Filial 191: Nenhum evento com erro
+[2025-07-07 11:38:39] Filial 192: Nenhum evento com erro
+[2025-07-07 11:38:39] Filial 193: Nenhum evento com erro
+[2025-07-07 11:38:39] Filial 194: Nenhum evento com erro
+[2025-07-07 11:38:39] Filial 195: Nenhum evento com erro
+[2025-07-07 11:38:40] Filial 196: Nenhum evento com erro
+[2025-07-07 11:38:40] Filial 197: Nenhum evento com erro
+[2025-07-07 11:38:40] Filial 198: Nenhum evento com erro
+[2025-07-07 11:38:40] Filial 199: Nenhum evento com erro
+[2025-07-07 11:38:41] Filial 201: Nenhum evento com erro
+[2025-07-07 11:38:41] Filial 202: Nenhum evento com erro
+[2025-07-07 11:39:02] ERRO PG - Conexão filial 203: connection to server at "qql20300.qq" (172.16.203.1), port 5432 failed: Connection timed out (0x0000274C/10060)
+	Is the server running on that host and accepting TCP/IP connections?
+
+[2025-07-07 11:39:03] Filial 205: Nenhum evento com erro
+[2025-07-07 11:39:03] Filial 206: Nenhum evento com erro
+[2025-07-07 11:39:03] Filial 207: Nenhum evento com erro
+[2025-07-07 11:39:04] Filial 208: Nenhum evento com erro
+[2025-07-07 11:39:04] Filial 209: Nenhum evento com erro
+[2025-07-07 11:39:05] Filial 213: Nenhum evento com erro
+[2025-07-07 11:39:06] Filial 215: Nenhum evento com erro
+[2025-07-07 11:39:07] Filial 216: Nenhum evento com erro
+[2025-07-07 11:39:10] Filial 217: Nenhum evento com erro
+[2025-07-07 11:39:11] Filial 218: Nenhum evento com erro
+[2025-07-07 11:39:11] Filial 219: Nenhum evento com erro
+[2025-07-07 11:39:11] Filial 220: Nenhum evento com erro
+[2025-07-07 11:39:12] Filial 221: Nenhum evento com erro
+[2025-07-07 11:39:12] Filial 222: Nenhum evento com erro
+[2025-07-07 11:39:12] Filial 223: Nenhum evento com erro
+[2025-07-07 11:39:13] Filial 224: Nenhum evento com erro
+[2025-07-07 11:39:13] Filial 225: Nenhum evento com erro
+[2025-07-07 11:39:13] Filial 226: Nenhum evento com erro
+[2025-07-07 11:39:13] Filial 227: Nenhum evento com erro
+[2025-07-07 11:39:14] Filial 229: Nenhum evento com erro
+[2025-07-07 11:39:14] Filial 231: Nenhum evento com erro
+[2025-07-07 11:39:14] Filial 232: Nenhum evento com erro
+[2025-07-07 11:39:14] Filial 233: Nenhum evento com erro
+[2025-07-07 11:39:15] Filial 234: Nenhum evento com erro
+[2025-07-07 11:39:15] Filial 235: tipo pedido -> inserindo erro do evento None com status Executando, nr_cupom 639
+[2025-07-07 11:39:15] Filial 236: Nenhum evento com erro
+[2025-07-07 11:39:16] Filial 238: Nenhum evento com erro
+[2025-07-07 11:39:16] Filial 239: Nenhum evento com erro
+[2025-07-07 11:39:16] Filial 240: Nenhum evento com erro
+[2025-07-07 11:39:17] Filial 241: Nenhum evento com erro
+[2025-07-07 11:39:17] Filial 244: tipo pedido -> inserindo erro do evento ROLLBACK || Error: ORA-00001: unique constraint (COMMERCE.CUP_PK) violated com status Erro, nr_cupom 68134
+[2025-07-07 11:39:18] Filial 245: Nenhum evento com erro
+[2025-07-07 11:39:18] Filial 246: Nenhum evento com erro
+[2025-07-07 11:39:19] Filial 247: tipo pedido -> inserindo erro do evento None com status Executando, nr_cupom 70648
+[2025-07-07 11:39:19] Filial 248: tipo pedido -> inserindo erro do evento None com status Executando, nr_cupom 115062
+[2025-07-07 11:39:20] Filial 249: Nenhum evento com erro
+[2025-07-07 11:39:20] Filial 250: Nenhum evento com erro
+[2025-07-07 11:39:21] Filial 252: Nenhum evento com erro
+[2025-07-07 11:39:21] Filial 253: Nenhum evento com erro
+[2025-07-07 11:39:21] Filial 255: tipo pedido -> inserindo erro do evento ROLLBACK || Error: ORA-00001: unique constraint (COMMERCE.CUP_PK) violated com status Erro, nr_cupom 158390
+[2025-07-07 11:39:22] Filial 256: Nenhum evento com erro
+[2025-07-07 11:39:22] Filial 257: tipo pedido -> inserindo erro do evento ROLLBACK || Error: ORA-00001: unique constraint (COMMERCE.CUP_PK) violated com status Erro, nr_cupom 139437
+[2025-07-07 11:39:22] Filial 258: Nenhum evento com erro
+[2025-07-07 11:39:23] Filial 259: Nenhum evento com erro
+[2025-07-07 11:39:23] Filial 260: Nenhum evento com erro
+[2025-07-07 11:39:23] Filial 261: Nenhum evento com erro
+[2025-07-07 11:39:24] Filial 262: Nenhum evento com erro
+[2025-07-07 11:39:24] Filial 263: Nenhum evento com erro
+[2025-07-07 11:39:24] Filial 264: Nenhum evento com erro
+[2025-07-07 11:39:24] Filial 265: Nenhum evento com erro
+[2025-07-07 11:39:25] Filial 266: Nenhum evento com erro
+[2025-07-07 11:39:25] Filial 267: Nenhum evento com erro
+[2025-07-07 11:39:25] Filial 268: Nenhum evento com erro
+[2025-07-07 11:39:25] Filial 269: Nenhum evento com erro
+[2025-07-07 11:39:25] Filial 270: Nenhum evento com erro
+[2025-07-07 11:39:25] Filial 272: Nenhum evento com erro
+[2025-07-07 11:39:26] Filial 273: Nenhum evento com erro
+[2025-07-07 11:39:26] Filial 274: Nenhum evento com erro
+[2025-07-07 11:39:26] Filial 275: Nenhum evento com erro
+[2025-07-07 11:39:27] Filial 278: Nenhum evento com erro
+[2025-07-07 11:39:27] Filial 280: Nenhum evento com erro
+[2025-07-07 11:39:28] Filial 281: Nenhum evento com erro
+[2025-07-07 11:39:28] Filial 282: Nenhum evento com erro
+[2025-07-07 11:39:30] Filial 283: Nenhum evento com erro
+[2025-07-07 11:39:30] Filial 284: Nenhum evento com erro
+[2025-07-07 11:39:30] Filial 285: Nenhum evento com erro
+[2025-07-07 11:39:30] Filial 286: Nenhum evento com erro
+[2025-07-07 11:39:30] Filial 287: Nenhum evento com erro
+[2025-07-07 11:39:31] Filial 289: Nenhum evento com erro
+[2025-07-07 11:39:31] Filial 290: Nenhum evento com erro
+[2025-07-07 11:39:31] Filial 291: Nenhum evento com erro
+[2025-07-07 11:39:32] Filial 292: Nenhum evento com erro
+[2025-07-07 11:39:32] Filial 293: Nenhum evento com erro
+[2025-07-07 11:39:33] Filial 294: Nenhum evento com erro
+[2025-07-07 11:39:33] Filial 295: tipo pedido -> inserindo erro do evento ROLLBACK || Error: ORA-02291: integrity constraint (COMMERCE.FK_PEDIDO_VENDA_CUPOM) violated - parent key not found com status Erro, nr_cupom 7723
+[2025-07-07 11:39:39] Filial 296: tipo pedido -> inserindo erro do evento ROLLBACK || Error: ORA-00001: unique constraint (COMMERCE.CUP_PK) violated com status Erro, nr_cupom 129235
+[2025-07-07 11:39:40] Filial 297: Nenhum evento com erro
+[2025-07-07 11:39:40] Filial 300: Nenhum evento com erro
+[2025-07-07 11:39:41] Filial 301: Nenhum evento com erro
+[2025-07-07 11:39:41] Filial 302: Nenhum evento com erro
+[2025-07-07 11:39:41] Filial 303: Nenhum evento com erro
+[2025-07-07 11:39:42] Filial 306: Nenhum evento com erro
+[2025-07-07 11:39:42] Filial 307: Nenhum evento com erro
+[2025-07-07 11:39:42] Filial 308: Nenhum evento com erro
+[2025-07-07 11:39:44] Filial 309: tipo pedido -> inserindo erro do evento ROLLBACK || Error: ORA-00001: unique constraint (COMMERCE.CUP_PK) violated com status Erro, nr_cupom 156552
+[2025-07-07 11:39:44] Filial 309: tipo pedido -> inserindo erro do evento ROLLBACK || Error: ORA-00001: unique constraint (COMMERCE.CUP_PK) violated com status Erro, nr_cupom 156456
+[2025-07-07 11:39:45] Filial 310: Nenhum evento com erro
+[2025-07-07 11:39:45] Filial 311: Nenhum evento com erro
+[2025-07-07 11:39:45] Filial 312: Nenhum evento com erro
+[2025-07-07 11:39:45] Filial 313: Nenhum evento com erro
+[2025-07-07 11:39:46] Filial 314: Nenhum evento com erro
+[2025-07-07 11:39:46] Filial 315: Nenhum evento com erro
+[2025-07-07 11:39:47] Filial 316: Nenhum evento com erro
+[2025-07-07 11:39:47] Filial 317: Nenhum evento com erro
+[2025-07-07 11:39:47] Filial 318: Nenhum evento com erro
+[2025-07-07 11:39:48] Filial 319: Nenhum evento com erro
+[2025-07-07 11:39:48] Filial 320: Nenhum evento com erro
+[2025-07-07 11:39:48] Filial 321: Nenhum evento com erro
+[2025-07-07 11:39:48] Filial 322: Nenhum evento com erro
+[2025-07-07 11:39:49] Filial 323: Nenhum evento com erro
+[2025-07-07 11:39:50] Filial 324: Nenhum evento com erro
+[2025-07-07 11:39:50] Filial 325: Nenhum evento com erro
+[2025-07-07 11:39:50] Filial 327: Nenhum evento com erro
+[2025-07-07 11:39:51] Filial 328: Nenhum evento com erro
+[2025-07-07 11:39:52] Filial 329: tipo pedido -> inserindo erro do evento ROLLBACK || Error: ORA-00001: unique constraint (COMMERCE.CUP_PK) violated com status Erro, nr_cupom 45712
+[2025-07-07 11:39:52] Filial 329: tipo pedido -> inserindo erro do evento ROLLBACK || Error: ORA-00001: unique constraint (COMMERCE.CUP_PK) violated com status Erro, nr_cupom 45588
+[2025-07-07 11:39:53] Filial 330: Nenhum evento com erro
+[2025-07-07 11:39:53] Filial 331: Nenhum evento com erro
+[2025-07-07 11:39:53] Filial 334: Nenhum evento com erro
+[2025-07-07 11:39:54] Filial 336: Nenhum evento com erro
+[2025-07-07 11:39:54] Filial 337: Nenhum evento com erro
+[2025-07-07 11:39:54] Filial 338: Nenhum evento com erro
+[2025-07-07 11:39:55] Filial 339: Nenhum evento com erro
+[2025-07-07 11:39:55] Filial 340: Nenhum evento com erro
+[2025-07-07 11:39:56] Filial 341: Nenhum evento com erro
+[2025-07-07 11:39:56] Filial 342: Nenhum evento com erro
+[2025-07-07 11:39:57] Filial 343: tipo pedido -> inserindo erro do evento ROLLBACK || Error: ORA-00001: unique constraint (COMMERCE.CUP_PK) violated com status Erro, nr_cupom 142435
+[2025-07-07 11:39:57] Filial 343: tipo pedido -> inserindo erro do evento ROLLBACK || Error: ORA-00001: unique constraint (COMMERCE.CUP_PK) violated com status Erro, nr_cupom 142429
+[2025-07-07 11:39:57] Filial 344: Nenhum evento com erro
+[2025-07-07 11:39:58] Filial 345: Nenhum evento com erro
+[2025-07-07 11:39:58] Filial 346: Nenhum evento com erro
+[2025-07-07 11:39:59] Filial 349: tipo pedido -> inserindo erro do evento None com status Executando, nr_cupom 2958
+[2025-07-07 11:39:59] Filial 350: Nenhum evento com erro
+[2025-07-07 11:39:59] Filial 351: Nenhum evento com erro
+[2025-07-07 11:40:00] Filial 352: Nenhum evento com erro
+[2025-07-07 11:40:01] Filial 353: Nenhum evento com erro
+[2025-07-07 11:40:02] Filial 354: Nenhum evento com erro
+[2025-07-07 11:40:03] Filial 355: Nenhum evento com erro
+[2025-07-07 11:40:05] Filial 356: Nenhum evento com erro
+[2025-07-07 11:40:06] Filial 357: Nenhum evento com erro
+[2025-07-07 11:40:07] Filial 358: Nenhum evento com erro
+[2025-07-07 11:40:08] Filial 360: Nenhum evento com erro
+[2025-07-07 11:40:09] Filial 361: Nenhum evento com erro
+[2025-07-07 11:40:10] Filial 362: Nenhum evento com erro
+[2025-07-07 11:40:11] Filial 363: Nenhum evento com erro
+[2025-07-07 11:40:12] Filial 364: Nenhum evento com erro
+[2025-07-07 11:40:13] Filial 365: Nenhum evento com erro
+[2025-07-07 11:40:13] Filial 366: Nenhum evento com erro
+[2025-07-07 11:40:13] Filial 367: Nenhum evento com erro
+[2025-07-07 11:40:14] Filial 368: Nenhum evento com erro
+[2025-07-07 11:40:14] Filial 369: tipo pedido -> inserindo erro do evento ROLLBACK || Error: ORA-00001: unique constraint (COMMERCE.CUP_PK) violated com status Erro, nr_cupom 50385
+[2025-07-07 11:40:15] Filial 370: Nenhum evento com erro
+[2025-07-07 11:40:15] Filial 371: Nenhum evento com erro
+[2025-07-07 11:40:15] Filial 372: Nenhum evento com erro
+[2025-07-07 11:40:16] Filial 373: Nenhum evento com erro
+[2025-07-07 11:40:17] Filial 374: Nenhum evento com erro
+[2025-07-07 11:40:17] Filial 375: Nenhum evento com erro
+[2025-07-07 11:40:17] Filial 376: Nenhum evento com erro
+[2025-07-07 11:40:18] Filial 377: Nenhum evento com erro
+[2025-07-07 11:40:18] Filial 378: Nenhum evento com erro
+[2025-07-07 11:40:19] Filial 379: Nenhum evento com erro
+[2025-07-07 11:40:19] Filial 380: Nenhum evento com erro
+[2025-07-07 11:40:19] Filial 381: Nenhum evento com erro
+[2025-07-07 11:40:19] Filial 382: Nenhum evento com erro
+[2025-07-07 11:40:20] Filial 385: Nenhum evento com erro
+[2025-07-07 11:40:20] Filial 386: Nenhum evento com erro
+[2025-07-07 11:40:20] Filial 387: Nenhum evento com erro
+[2025-07-07 11:40:20] Filial 388: Nenhum evento com erro
+[2025-07-07 11:40:21] Filial 389: Nenhum evento com erro
+[2025-07-07 11:40:21] Filial 390: Nenhum evento com erro
+[2025-07-07 11:40:21] Filial 391: Nenhum evento com erro
+[2025-07-07 11:40:22] Filial 393: Nenhum evento com erro
+[2025-07-07 11:40:22] Filial 394: Nenhum evento com erro
+[2025-07-07 11:40:23] Filial 396: Nenhum evento com erro
+[2025-07-07 11:40:24] Filial 397: Nenhum evento com erro
+[2025-07-07 11:40:24] Filial 398: Nenhum evento com erro
+[2025-07-07 11:40:24] Filial 399: Nenhum evento com erro
+[2025-07-07 11:40:26] Filial 400: Nenhum evento com erro
+[2025-07-07 11:40:27] Filial 401: Nenhum evento com erro
+[2025-07-07 11:40:27] Filial 402: Nenhum evento com erro
+[2025-07-07 11:40:28] Filial 403: Nenhum evento com erro
+[2025-07-07 11:40:28] Filial 405: Nenhum evento com erro
+[2025-07-07 11:40:29] Filial 406: Nenhum evento com erro
+[2025-07-07 11:40:29] Filial 407: Nenhum evento com erro
+[2025-07-07 11:40:29] Filial 408: Nenhum evento com erro
+[2025-07-07 11:40:30] Filial 409: Nenhum evento com erro
+[2025-07-07 11:40:30] Filial 410: Nenhum evento com erro
+[2025-07-07 11:40:30] Filial 411: Nenhum evento com erro
+[2025-07-07 11:40:30] Filial 412: Nenhum evento com erro
+[2025-07-07 11:40:33] Filial 413: Nenhum evento com erro
+[2025-07-07 11:40:33] Filial 414: Nenhum evento com erro
+[2025-07-07 11:40:34] Filial 415: Nenhum evento com erro
+[2025-07-07 11:40:34] Filial 416: Nenhum evento com erro
+[2025-07-07 11:40:34] Filial 417: Nenhum evento com erro
+[2025-07-07 11:40:35] Filial 418: Nenhum evento com erro
+[2025-07-07 11:40:35] Filial 419: Nenhum evento com erro
+[2025-07-07 11:40:35] Filial 420: Nenhum evento com erro
+[2025-07-07 11:40:35] Filial 421: Nenhum evento com erro
+[2025-07-07 11:40:35] Filial 422: Nenhum evento com erro
+[2025-07-07 11:40:36] Filial 423: Nenhum evento com erro
+[2025-07-07 11:40:36] Filial 425: Nenhum evento com erro
+[2025-07-07 11:40:37] Filial 426: Nenhum evento com erro
+[2025-07-07 11:40:37] Filial 427: Nenhum evento com erro
+[2025-07-07 11:40:37] Filial 429: Nenhum evento com erro
+[2025-07-07 11:40:38] Filial 430: Nenhum evento com erro
+[2025-07-07 11:40:39] Filial 431: Nenhum evento com erro
+[2025-07-07 11:40:39] Filial 432: Nenhum evento com erro
+[2025-07-07 11:40:39] Filial 433: Nenhum evento com erro
+[2025-07-07 11:40:39] Filial 435: Nenhum evento com erro
+[2025-07-07 11:41:00] ERRO PG - Conexão filial 436: connection to server at "qql43600.qq" (172.17.182.1), port 5432 failed: Connection timed out (0x0000274C/10060)
+	Is the server running on that host and accepting TCP/IP connections?
+
+[2025-07-07 11:41:01] Filial 437: Nenhum evento com erro
+[2025-07-07 11:41:02] Filial 438: Nenhum evento com erro
+[2025-07-07 11:41:02] Filial 439: Nenhum evento com erro
+[2025-07-07 11:41:03] Filial 440: Nenhum evento com erro
+[2025-07-07 11:41:03] Filial 441: Nenhum evento com erro
+[2025-07-07 11:41:03] Filial 442: Nenhum evento com erro
+[2025-07-07 11:41:04] Filial 443: Nenhum evento com erro
+[2025-07-07 11:41:04] Filial 444: Nenhum evento com erro
+[2025-07-07 11:41:05] Filial 445: Nenhum evento com erro
+[2025-07-07 11:41:05] Filial 448: Nenhum evento com erro
+[2025-07-07 11:41:05] Filial 449: Nenhum evento com erro
+[2025-07-07 11:41:06] Filial 450: Nenhum evento com erro
+[2025-07-07 11:41:07] Filial 451: Nenhum evento com erro
+[2025-07-07 11:41:10] Filial 452: Nenhum evento com erro
+[2025-07-07 11:41:11] Filial 453: Nenhum evento com erro
+[2025-07-07 11:41:11] Filial 454: Nenhum evento com erro
+[2025-07-07 11:41:11] Filial 455: Nenhum evento com erro
+[2025-07-07 11:41:11] Filial 456: Nenhum evento com erro
+[2025-07-07 11:41:12] Filial 457: tipo pedido -> inserindo erro do evento ROLLBACK || Error: ORA-00001: unique constraint (COMMERCE.CUP_PK) violated com status Erro, nr_cupom 43571
+[2025-07-07 11:41:13] Filial 458: Nenhum evento com erro
+[2025-07-07 11:41:13] Filial 459: Nenhum evento com erro
+[2025-07-07 11:41:14] Filial 460: Nenhum evento com erro
+[2025-07-07 11:41:14] Filial 461: Nenhum evento com erro
+[2025-07-07 11:41:14] Filial 462: Nenhum evento com erro
+[2025-07-07 11:41:14] Filial 463: Nenhum evento com erro
+[2025-07-07 11:41:15] Filial 464: Nenhum evento com erro
+[2025-07-07 11:41:15] Filial 465: Nenhum evento com erro
+[2025-07-07 11:41:15] Filial 467: Nenhum evento com erro
+[2025-07-07 11:41:16] Filial 469: Nenhum evento com erro
+[2025-07-07 11:41:16] Filial 470: Nenhum evento com erro
+[2025-07-07 11:41:16] Filial 471: Nenhum evento com erro
+[2025-07-07 11:41:17] Filial 472: Nenhum evento com erro
+[2025-07-07 11:41:17] Filial 473: Nenhum evento com erro
+[2025-07-07 11:41:17] Filial 474: Nenhum evento com erro
+[2025-07-07 11:41:38] ERRO PG - Conexão filial 475: connection to server at "qql47500.qq" (172.17.221.1), port 5432 failed: Connection timed out (0x0000274C/10060)
+	Is the server running on that host and accepting TCP/IP connections?
+
+[2025-07-07 11:41:39] Filial 476: Nenhum evento com erro
+[2025-07-07 11:41:39] Filial 477: Nenhum evento com erro
+[2025-07-07 11:41:39] Filial 478: Nenhum evento com erro
+[2025-07-07 11:41:40] Filial 479: Nenhum evento com erro
+[2025-07-07 11:41:42] Filial 480: Nenhum evento com erro
+[2025-07-07 11:41:42] Filial 481: Nenhum evento com erro
+[2025-07-07 11:41:43] Filial 482: Nenhum evento com erro
+[2025-07-07 11:41:43] Filial 483: Nenhum evento com erro
+[2025-07-07 11:41:43] Filial 484: Nenhum evento com erro
+[2025-07-07 11:41:43] Filial 485: Nenhum evento com erro
+[2025-07-07 11:41:44] Filial 486: Nenhum evento com erro
+[2025-07-07 11:41:44] Filial 487: Nenhum evento com erro
+[2025-07-07 11:41:44] Filial 489: Nenhum evento com erro
+[2025-07-07 11:41:45] Filial 490: Nenhum evento com erro
+[2025-07-07 11:41:46] Filial 491: Nenhum evento com erro
+[2025-07-07 11:41:47] Filial 492: Nenhum evento com erro
+[2025-07-07 11:41:47] Filial 493: Nenhum evento com erro
+[2025-07-07 11:41:47] Filial 494: Nenhum evento com erro
+[2025-07-07 11:41:48] Filial 495: Nenhum evento com erro
+[2025-07-07 11:41:49] Filial 496: Nenhum evento com erro
+[2025-07-07 11:41:50] Filial 499: Nenhum evento com erro
+[2025-07-07 11:41:50] Filial 500: Nenhum evento com erro
+[2025-07-07 11:41:51] Filial 501: Nenhum evento com erro
+[2025-07-07 11:41:51] Filial 502: Nenhum evento com erro
+[2025-07-07 11:41:51] Filial 503: Nenhum evento com erro
+[2025-07-07 11:41:51] Filial 504: Nenhum evento com erro
+[2025-07-07 11:41:52] Filial 505: Nenhum evento com erro
+[2025-07-07 11:41:53] Filial 506: Nenhum evento com erro
+[2025-07-07 11:41:53] Filial 507: Nenhum evento com erro
+[2025-07-07 11:41:54] Filial 508: Nenhum evento com erro
+[2025-07-07 11:41:54] Filial 509: Nenhum evento com erro
+[2025-07-07 11:41:54] Filial 510: Nenhum evento com erro
+[2025-07-07 11:41:54] Filial 511: Nenhum evento com erro
+[2025-07-07 11:41:55] Filial 512: Nenhum evento com erro
+[2025-07-07 11:41:55] Filial 513: Nenhum evento com erro
+[2025-07-07 11:41:55] Filial 514: Nenhum evento com erro
+[2025-07-07 11:41:56] Filial 515: Nenhum evento com erro
+[2025-07-07 11:42:01] Filial 516: Nenhum evento com erro
+[2025-07-07 11:42:01] Filial 517: Nenhum evento com erro
+[2025-07-07 11:42:02] Filial 518: Nenhum evento com erro
+[2025-07-07 11:42:04] Filial 519: Nenhum evento com erro
+[2025-07-07 11:42:05] Filial 520: Nenhum evento com erro
+[2025-07-07 11:42:06] Filial 522: Nenhum evento com erro
+[2025-07-07 11:42:06] Filial 523: Nenhum evento com erro
+[2025-07-07 11:42:07] Filial 524: Nenhum evento com erro
+[2025-07-07 11:42:08] Filial 525: Nenhum evento com erro
+[2025-07-07 11:42:11] Filial 526: tipo pedido -> inserindo erro do evento ROLLBACK || Error: ORA-00001: unique constraint (COMMERCE.CUP_PK) violated com status Erro, nr_cupom 9425
+[2025-07-07 11:42:11] Filial 526: tipo pedido -> inserindo erro do evento ROLLBACK || Error: ORA-00001: unique constraint (COMMERCE.CUP_PK) violated com status Erro, nr_cupom 9424
+[2025-07-07 11:42:11] Filial 527: Nenhum evento com erro
+[2025-07-07 11:42:12] Filial 529: Nenhum evento com erro
+[2025-07-07 11:42:12] Filial 530: Nenhum evento com erro
+[2025-07-07 11:42:13] Filial 531: Nenhum evento com erro
+[2025-07-07 11:42:14] Filial 532: Nenhum evento com erro
+[2025-07-07 11:42:14] Filial 533: Nenhum evento com erro
+[2025-07-07 11:42:15] Filial 534: Nenhum evento com erro
+[2025-07-07 11:42:15] Filial 535: Nenhum evento com erro
+[2025-07-07 11:42:15] Filial 536: Nenhum evento com erro
+[2025-07-07 11:42:16] Filial 537: tipo pedido -> inserindo erro do evento None com status Executando, nr_cupom 16167
+[2025-07-07 11:42:16] Filial 539: Nenhum evento com erro
+[2025-07-07 11:42:16] Filial 540: Nenhum evento com erro
+[2025-07-07 11:42:17] Filial 541: Nenhum evento com erro
+[2025-07-07 11:42:17] Filial 542: Nenhum evento com erro
+[2025-07-07 11:42:18] Filial 543: Nenhum evento com erro
+[2025-07-07 11:42:20] Filial 544: Nenhum evento com erro
+[2025-07-07 11:42:20] Filial 545: Nenhum evento com erro
+[2025-07-07 11:42:20] Filial 546: Nenhum evento com erro
+[2025-07-07 11:42:21] Filial 547: Nenhum evento com erro
+[2025-07-07 11:42:21] Filial 548: Nenhum evento com erro
+[2025-07-07 11:42:21] Filial 549: tipo pedido -> inserindo erro do evento None com status Executando, nr_cupom 44183
+[2025-07-07 11:42:21] Filial 550: Nenhum evento com erro
+[2025-07-07 11:42:22] Filial 551: Nenhum evento com erro
+[2025-07-07 11:42:23] Filial 552: tipo pedido -> inserindo erro do evento ROLLBACK || Error: ORA-00001: unique constraint (COMMERCE.CUP_PK) violated com status Erro, nr_cupom 21721
+[2025-07-07 11:42:24] Filial 553: Nenhum evento com erro
+[2025-07-07 11:42:24] Filial 554: Nenhum evento com erro
+[2025-07-07 11:42:25] Filial 555: Nenhum evento com erro
+[2025-07-07 11:42:26] Filial 556: tipo id_cupom_pg -> inserindo erro do evento ORA-03114: not connected to ORACLE com status Erro, nr_cupom 33708
+[2025-07-07 11:42:26] Filial 556: tipo id_cupom_pg -> inserindo erro do evento Cannot read property '0' of undefined com status Erro, nr_cupom 17374
+[2025-07-07 11:42:26] Filial 557: Nenhum evento com erro
+[2025-07-07 11:42:27] Filial 558: Nenhum evento com erro
+[2025-07-07 11:42:27] Filial 559: Nenhum evento com erro
+[2025-07-07 11:42:28] Filial 560: Nenhum evento com erro
+[2025-07-07 11:42:28] Filial 562: Nenhum evento com erro
+[2025-07-07 11:42:29] Filial 563: Nenhum evento com erro
+[2025-07-07 11:42:30] Filial 564: Nenhum evento com erro
+[2025-07-07 11:42:30] Filial 565: Nenhum evento com erro
+[2025-07-07 11:42:30] Filial 566: Nenhum evento com erro
+[2025-07-07 11:42:31] Filial 567: Nenhum evento com erro
+[2025-07-07 11:42:31] Filial 568: Nenhum evento com erro
+[2025-07-07 11:42:33] Filial 569: Nenhum evento com erro
+[2025-07-07 11:42:34] Filial 570: tipo pedido -> inserindo erro do evento ROLLBACK || Error: ORA-00001: unique constraint (COMMERCE.CUP_PK) violated com status Erro, nr_cupom 30381
+[2025-07-07 11:42:36] Filial 571: Nenhum evento com erro
+[2025-07-07 11:42:36] Filial 574: Nenhum evento com erro
+[2025-07-07 11:42:36] Filial 575: Nenhum evento com erro
+[2025-07-07 11:42:39] Filial 576: Nenhum evento com erro
+[2025-07-07 11:42:39] Filial 577: Nenhum evento com erro
+[2025-07-07 11:42:39] Filial 578: Nenhum evento com erro
+[2025-07-07 11:42:40] Filial 579: tipo pedido -> inserindo erro do evento ROLLBACK || Error: ORA-00001: unique constraint (COMMERCE.CUP_PK) violated com status Erro, nr_cupom 68897
+[2025-07-07 11:42:40] Filial 580: tipo pedido -> inserindo erro do evento None com status Executando, nr_cupom 43860
+[2025-07-07 11:42:40] Filial 581: Nenhum evento com erro
+[2025-07-07 11:42:41] Filial 582: Nenhum evento com erro
+[2025-07-07 11:42:42] Filial 583: Nenhum evento com erro
+[2025-07-07 11:42:43] Filial 584: Nenhum evento com erro
+[2025-07-07 11:42:45] Filial 585: Nenhum evento com erro
+[2025-07-07 11:42:46] Filial 586: Nenhum evento com erro
+[2025-07-07 11:42:47] Filial 587: Nenhum evento com erro
+[2025-07-07 11:42:47] Filial 588: Nenhum evento com erro
+[2025-07-07 11:42:47] Filial 589: Nenhum evento com erro
+[2025-07-07 11:42:48] Filial 590: Nenhum evento com erro
+[2025-07-07 11:42:48] Filial 591: Nenhum evento com erro
+[2025-07-07 11:42:49] Filial 592: Nenhum evento com erro
+[2025-07-07 11:42:49] Filial 593: Nenhum evento com erro
+[2025-07-07 11:42:49] Filial 594: Nenhum evento com erro
+[2025-07-07 11:42:49] Filial 595: Nenhum evento com erro
+[2025-07-07 11:42:50] Filial 596: Nenhum evento com erro
+[2025-07-07 11:42:50] Filial 597: Nenhum evento com erro
+[2025-07-07 11:42:50] Filial 598: Nenhum evento com erro
+[2025-07-07 11:42:52] Filial 599: Nenhum evento com erro
+[2025-07-07 11:42:52] Filial 600: Nenhum evento com erro
+[2025-07-07 11:42:54] Filial 601: Nenhum evento com erro
+[2025-07-07 11:42:55] Filial 602: Nenhum evento com erro
+[2025-07-07 11:42:55] Filial 603: Nenhum evento com erro
+[2025-07-07 11:42:55] Filial 604: Nenhum evento com erro
+[2025-07-07 11:42:56] Filial 606: Nenhum evento com erro
+[2025-07-07 11:42:56] Filial 607: Nenhum evento com erro
+[2025-07-07 11:42:56] Filial 608: Nenhum evento com erro
+[2025-07-07 11:42:56] Filial 609: Nenhum evento com erro
+[2025-07-07 11:42:58] Filial 610: Nenhum evento com erro
+[2025-07-07 11:42:58] Filial 611: Nenhum evento com erro
+[2025-07-07 11:42:58] Filial 612: Nenhum evento com erro
+[2025-07-07 11:42:59] Filial 614: Nenhum evento com erro
+[2025-07-07 11:43:00] Filial 615: Nenhum evento com erro
+[2025-07-07 11:43:01] Filial 616: Nenhum evento com erro
+[2025-07-07 11:43:22] ERRO PG - Conexão filial 617: connection to server at "qql61700.qq" (172.18.109.1), port 5432 failed: Connection timed out (0x0000274C/10060)
+	Is the server running on that host and accepting TCP/IP connections?
+
+[2025-07-07 11:43:22] Filial 618: Nenhum evento com erro
+[2025-07-07 11:43:22] Filial 619: Nenhum evento com erro
+[2025-07-07 11:43:22] Filial 620: Nenhum evento com erro
+[2025-07-07 11:43:23] Filial 621: Nenhum evento com erro
+[2025-07-07 11:43:23] Filial 622: Nenhum evento com erro
+[2025-07-07 11:43:23] Filial 623: Nenhum evento com erro
+[2025-07-07 11:43:23] Filial 624: Nenhum evento com erro
+[2025-07-07 11:43:24] Filial 625: Nenhum evento com erro
+[2025-07-07 11:43:24] Filial 626: Nenhum evento com erro
+[2025-07-07 11:43:25] Filial 627: Nenhum evento com erro
+[2025-07-07 11:43:25] Filial 628: Nenhum evento com erro
+[2025-07-07 11:43:25] Filial 629: Nenhum evento com erro
+[2025-07-07 11:43:25] Filial 630: Nenhum evento com erro
+[2025-07-07 11:43:26] Filial 631: Nenhum evento com erro
+[2025-07-07 11:43:26] Filial 632: Nenhum evento com erro
+[2025-07-07 11:43:26] Filial 633: Nenhum evento com erro
+[2025-07-07 11:43:26] Filial 634: Nenhum evento com erro
+[2025-07-07 11:43:27] Filial 635: Nenhum evento com erro
+[2025-07-07 11:43:27] Filial 636: Nenhum evento com erro
+[2025-07-07 11:43:27] Filial 637: Nenhum evento com erro
+[2025-07-07 11:43:48] ERRO PG - Conexão filial 638: connection to server at "qql63800.qq" (172.18.130.1), port 5432 failed: Connection timed out (0x0000274C/10060)
+	Is the server running on that host and accepting TCP/IP connections?
+
+[2025-07-07 11:43:48] Filial 640: Nenhum evento com erro
+[2025-07-07 11:43:49] Filial 641: Nenhum evento com erro
+[2025-07-07 11:43:49] Filial 642: Nenhum evento com erro
+[2025-07-07 11:43:49] Filial 643: Nenhum evento com erro
+[2025-07-07 11:43:49] Filial 644: Nenhum evento com erro
+[2025-07-07 11:43:49] Filial 645: Nenhum evento com erro
+[2025-07-07 11:43:49] Filial 646: Nenhum evento com erro
+[2025-07-07 11:43:50] Filial 647: Nenhum evento com erro
+[2025-07-07 11:43:50] Filial 648: Nenhum evento com erro
+[2025-07-07 11:43:50] Filial 649: Nenhum evento com erro
+[2025-07-07 11:43:50] Filial 650: Nenhum evento com erro
+[2025-07-07 11:43:51] Filial 651: Nenhum evento com erro
+[2025-07-07 11:43:51] Filial 652: tipo pedido -> inserindo erro do evento ROLLBACK || Error: ORA-00001: unique constraint (COMMERCE.CUP_PK) violated com status Erro, nr_cupom 3715
+[2025-07-07 11:43:51] Filial 653: Nenhum evento com erro
+[2025-07-07 11:43:52] Filial 654: Nenhum evento com erro
+[2025-07-07 11:43:52] Filial 655: Nenhum evento com erro
+[2025-07-07 11:43:52] Filial 656: Nenhum evento com erro
+[2025-07-07 11:43:52] Filial 657: Nenhum evento com erro
+[2025-07-07 11:43:53] Filial 658: Nenhum evento com erro
+[2025-07-07 11:43:53] Filial 659: Nenhum evento com erro
+[2025-07-07 11:43:53] Filial 660: Nenhum evento com erro
+[2025-07-07 11:43:54] Filial 661: Nenhum evento com erro
+[2025-07-07 11:44:15] ERRO PG - Conexão filial 662: connection to server at "qql66200.qq" (172.18.154.1), port 5432 failed: Connection timed out (0x0000274C/10060)
+	Is the server running on that host and accepting TCP/IP connections?
+
+[2025-07-07 11:44:15] Filial 663: Nenhum evento com erro
+[2025-07-07 11:44:15] Filial 664: Nenhum evento com erro
+[2025-07-07 11:44:16] Filial 665: Nenhum evento com erro
+[2025-07-07 11:44:16] Filial 666: Nenhum evento com erro
+[2025-07-07 11:44:16] Filial 667: Nenhum evento com erro
+[2025-07-07 11:44:16] Filial 668: Nenhum evento com erro
+[2025-07-07 11:44:37] ERRO PG - Conexão filial 669: connection to server at "qql66900.qq" (172.18.161.1), port 5432 failed: Connection timed out (0x0000274C/10060)
+	Is the server running on that host and accepting TCP/IP connections?
+
+[2025-07-07 11:44:38] Filial 670: Nenhum evento com erro
+[2025-07-07 11:44:38] Filial 671: Nenhum evento com erro
+[2025-07-07 11:44:38] Filial 672: tipo pedido -> inserindo erro do evento ROLLBACK || Error: ORA-00001: unique constraint (COMMERCE.CUP_PK) violated com status Erro, nr_cupom 2265
+[2025-07-07 11:44:38] Filial 673: Nenhum evento com erro
+[2025-07-07 11:44:59] ERRO PG - Conexão filial 674: connection to server at "qql67400.qq" (172.18.166.1), port 5432 failed: Connection timed out (0x0000274C/10060)
+	Is the server running on that host and accepting TCP/IP connections?
+
+[2025-07-07 11:45:20] ERRO PG - Conexão filial 675: connection to server at "qql67500.qq" (172.18.167.1), port 5432 failed: Connection timed out (0x0000274C/10060)
+	Is the server running on that host and accepting TCP/IP connections?
+
+[2025-07-07 11:45:41] ERRO PG - Conexão filial 676: connection to server at "qql67600.qq" (172.18.168.1), port 5432 failed: Connection timed out (0x0000274C/10060)
+	Is the server running on that host and accepting TCP/IP connections?
+
+[2025-07-07 11:46:03] ERRO PG - Conexão filial 677: connection to server at "qql67700.qq" (172.18.169.1), port 5432 failed: Connection timed out (0x0000274C/10060)
+	Is the server running on that host and accepting TCP/IP connections?
+
+[2025-07-07 11:46:03] Processamento concluído. Total de erros logados: 43
+[2025-07-07 11:46:03] Conexão Oracle fechada com sucesso.
+[2025-07-07 11:46:03] Conexão PostgreSQL fechada com sucesso.
+[2025-07-07 11:46:03] Conexão MySQL fechada com sucesso.
+[2025-07-07 11:46:03] Todas conexões fechadas.
+[2025-07-07 11:46:03] 
+########################
+PROCESSAMENTO DE FILIAIS CONCLUÍDO.
+######################### 
+
+[2025-07-07 11:46:03] INICIANDO VALIDAÇÃO D0...
+[2025-07-07 11:46:03] Processando Pedido 780409854 / Filial 48...
+[2025-07-07 11:46:03] Evento venda PG: ID 117503 | Status: Erro
+[2025-07-07 11:46:03] Evento venda ainda não está com status SUCESSO no PG. Pulando pedido 780409854.
+[2025-07-07 11:46:03] Processando Pedido 780373680 / Filial 15...
+[2025-07-07 11:46:06] Evento venda PG: ID 224567 | Status: Erro
+[2025-07-07 11:46:06] Evento venda ainda não está com status SUCESSO no PG. Pulando pedido 780373680.
+[2025-07-07 11:46:06] Processando Pedido 780152867 / Filial 44...
+[2025-07-07 11:46:06] Evento venda PG: ID 442376 | Status: Erro
+[2025-07-07 11:46:06] Evento venda PG: ID 442377 | Status: Sucesso
+[2025-07-07 11:46:06] Conectado ao Oracle.
+[2025-07-07 11:46:06] Filial: 44, Pedido: 780152867, Tipo Pedido: P
+[2025-07-07 11:46:06] Tipo do Pedido: P
+[2025-07-07 11:46:06] WMB_ROW: 556638104,Filial: 0044 Pedido: 780152867, Subiu: S
+[2025-07-07 11:46:06] Subiu para WMB com sucesso: [556638104, '0044', 780152867, 'S']
+[2025-07-07 11:46:06] Pedido 780152867 atualizado no MySQL com sucesso.
+[2025-07-07 11:46:06] Processando Pedido 780280276 / Filial 48...
+[2025-07-07 11:46:07] Evento venda PG: ID 117546 | Status: Sucesso
+[2025-07-07 11:46:07] Filial: 48, Pedido: 780280276, Tipo Pedido: P
+[2025-07-07 11:46:07] Tipo do Pedido: P
+[2025-07-07 11:46:07] WMB_ROW: 556673619,Filial: 0048 Pedido: 780280276, Subiu: S
+[2025-07-07 11:46:07] Subiu para WMB com sucesso: [556673619, '0048', 780280276, 'S']
+[2025-07-07 11:46:07] Pedido 780280276 atualizado no MySQL com sucesso.
+[2025-07-07 11:46:07] Processando Pedido None / Filial 49...
+[2025-07-07 11:46:30] Evento divida PG: ID 410227 | Status: Sucesso
+[2025-07-07 11:46:30] Pedido None atualizado no MySQL com sucesso.
+[2025-07-07 11:46:30] Processando Pedido 780357089 / Filial 61...
+[2025-07-07 11:47:24] Evento venda PG: ID 107866 | Status: Erro
+[2025-07-07 11:47:24] Evento venda ainda não está com status SUCESSO no PG. Pulando pedido 780357089.
+[2025-07-07 11:47:24] Processando Pedido 780180296 / Filial 78...

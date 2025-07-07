@@ -1,0 +1,22 @@
+{
+    "pg":{
+        "host":"",
+        "database": "prd",
+        "user": "u160055",
+        "password": "KdseDmBX8E",
+        "port": "5432"
+    },
+    "oracle": {
+        "database": "qqvarejo",
+        "user": "commerce",
+        "password": "comm",
+        "port": "1521"
+    },
+    "mysql":{
+        "host":"172.22.0.94",
+        "user":"root",
+        "password":"roo123",
+        "database":"qq_systems_monitor",
+        "port":"3306"
+    }
+}
